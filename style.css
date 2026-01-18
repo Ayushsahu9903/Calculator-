@@ -1,0 +1,43 @@
+body { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+   background-image: url("https://static.vecteezy.com/system/resources/previews/049/855/259/non_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg");
+  background-size: cover;     
+  background-repeat: no-repeat; 
+  background-position: center;  
+  font-family: Arial, sans-serif;
+}
+.calculator{
+   width: 300px;
+   background-image: url("https://m.media-amazon.com/images/I/71vTOIsi7yL._UF1000,1000_QL80_.jpg");
+  background-size: cover;     
+  background-repeat: no-repeat; 
+  background-position: center;  
+  padding: 20px;
+  border-radius: 15px;
+ }
+
+.input{
+ width: 100%;
+  height: 60px;
+  font-size: 3rem;
+  text-align: right;
+  margin-bottom: 15px;
+  /* padding:10px; */
+  border: none;
+  border-radius: 10px;
+  background: #111;
+  color: #fff;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+button{
+    padding: 20px;
+    border: 100px;
+    border-radius: 10px;
+}
